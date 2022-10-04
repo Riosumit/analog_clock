@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url("bg.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.a_clock{
+    margin: 10vw auto;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.clock, .clock img{
+    height: 400px;
+    width: 400px;
+    max-width: 95vw;
+    max-height: 95vw;
+    position: relative;
+    border-radius: 200px;
+}
+.hand{
+    position: absolute;
+    bottom: 0%;
+    right: 50%;
+    height: 100%;
+    width: 4px;
+}
+.s_ivis{
+    height: 32%;
+    width: 4px;
+}
+.smallhand{
+    position: absolute;
+    height: 18%;
+    width: 4px;
+    background-color: black;
+}
+.m_ivis{
+    height: 10%;
+    width: 4px;
+}
+.medhand{
+    position: absolute;
+    height: 40%;
+    width: 2px;
+    background-color: black;
+}
+.l_ivis{
+    height: 5%;
+    width: 4px;
+}
+.largehand{
+    position: absolute;
+    height: 45%;
+    width: 1px;
+    background-color: black;
+}
