@@ -4,9 +4,6 @@ function a_clock(){
     hour = time.getHours();
     minute = time.getMinutes();
     second = time.getSeconds();
-    sechand_rotate = second*6;
-    minhand_rotate = minute*6;
-    hourhand_rotate = (hour*30)+(minute/2);
     document.getElementsByClassName('hand')[0].style.transform= "rotate(" + ((hour*30)+(minute/2)) + "deg)";
     document.getElementsByClassName('hand')[1].style.transform= "rotate(" + minute*6 + "deg)";
     document.getElementsByClassName('hand')[2].style.transform= "rotate(" + second*6 + "deg)";
